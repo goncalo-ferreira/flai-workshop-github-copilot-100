@@ -100,6 +100,31 @@ section h3 {
   border-radius: 3px;
   font-size: 14px;
   color: #424242;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.participant-email {
+  flex: 1;
+}
+
+.delete-btn {
+  background-color: transparent;
+  color: #c62828;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  transition: all 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: #ffebee;
+  color: #b71c1c;
 }
 
 .no-participants {
